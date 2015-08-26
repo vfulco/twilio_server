@@ -11,7 +11,12 @@ Install python 2.7.x and SQLite, then run the following
 Rename `app.cfg.default` to `app.cfg` and enter desired information, and run `python db_setup.py`.
 
 ## Usage
+#### Server
 Run `sudo python run.py` in a screen/tmux session or with nohup.
+#### Client
+Enter `http://yoursite.tld/twilioendpoint` as the TwiML endpoint for your Twilio number's messages to have the messages sent to the server.
+
+Browse/cUrl/whatever `http://yoursite.tld/messages/<account_sid>` to retreive messages for that account.
 
 ## Requirements
 * Python 2.7.x
