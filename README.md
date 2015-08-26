@@ -16,7 +16,7 @@ Run `sudo python run.py` in a screen/tmux session or with nohup.
 #### Client
 Enter `http://yoursite.tld/twilioendpoint` to have messages sent to the server
 
-Query/cUrl/whatever `http://yoursite.tld/messages/<account_sid>` to retreive messages for that account
+Browse/cUrl/whatever `http://yoursite.tld/messages/<account_sid>` to retreive messages for that account
 
 ## Requirements
 * Python 2.7.x
