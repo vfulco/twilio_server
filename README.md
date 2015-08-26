@@ -15,6 +15,7 @@ Rename `app.cfg.default` to `app.cfg` and enter desired information, and run `py
 Run `sudo python run.py` in a screen/tmux session or with nohup.
 #### Client
 Enter `http://yoursite.tld/twilioendpoint` to have messages sent to the server
+
 Query/cUrl/whatever `http://yoursite.tld/messages/<account_sid>` to retreive messages for that account
 
 ## Requirements
